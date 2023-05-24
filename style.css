@@ -1,0 +1,94 @@
+/* Обнуление */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+/* Шрифты */
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('fonts/GothamPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Верстка: header */
+
+.header {
+    display: flex;
+    box-shadow: 0 -2px 0 0 #EDEDED inset;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 67px;
+    height: 117px;
+}
+
+.header-menu {
+    margin: 0 0 0 580px;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    font-family: "Gotham Pro";
+    font-weight: bold;
+}
+
+.menu-item:not(:last-child) {
+   margin-right: 36px;
+}
+
+.menu-link {
+    line-height: 24px;
+    font-size: 16px;
+    color: #000000;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.menu-button {
+    font-family: "Gotham Pro";
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 272px;
+    height: 55px;
+    background: #89CDFA;
+    border-radius: 5px;
+}
+
+.header-logo {
+    font-family: 'Gotham Pro';
+    font-size: 44px;
+    line-height: 52px;
+    display: flex;
+    color: #313747;
+    text-decoration: none;
+}
+
+

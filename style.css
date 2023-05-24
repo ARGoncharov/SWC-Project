@@ -43,10 +43,11 @@ li {
     justify-content: space-between;
     padding: 0 67px;
     height: 117px;
+    flex: 1;
 }
 
 .header-menu {
-    margin: 0 0 0 580px;
+    
 }
 
 .menu-list {

@@ -94,9 +94,26 @@ li {
 
 /* Верстка: page */
 
-.main-block-content {
+.main-block-container {
+    display: flex;
+    height: 100vh;
     position: relative;
-    margin: 243px 867px 0 67px;
+}
+
+.main-block-textcontent {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 360px;
+    padding-left: 67px;
+    padding-bottom: 2095px;
+}
+
+.main-block-imagecontent {
+    flex-basis: 50%;
+    padding-top: 33px;
+    padding-left: 20%;
 }
 
 .main-block-title {
@@ -111,20 +128,14 @@ li {
     font-size: 20px;
     font-weight: normal;
     line-height: 23px;
-}
-
-.main-block-image {
-    margin: 33px 0 0 763px;
+    white-space: nowrap;
+    padding-top: 20px;
 }
 
 .feature-img {
     width: 517px;
-    position: absolute;
-    top: 150px;
-    left: 763px;
-    right: 0;
+    height: 363px;
+    background-image: url('images/mainBlockImage.png');
 }
-
-
 
 

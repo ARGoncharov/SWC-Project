@@ -92,4 +92,39 @@ li {
     text-decoration: none;
 }
 
+/* Верстка: page */
+
+.main-block-content {
+    position: relative;
+    margin: 243px 867px 0 67px;
+}
+
+.main-block-title {
+    font-family: "Gotham Pro";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 43px;
+}
+
+.main-block-text {
+    font-family: "Gotham Pro";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 23px;
+}
+
+.main-block-image {
+    margin: 33px 0 0 763px;
+}
+
+.feature-img {
+    width: 517px;
+    position: absolute;
+    top: 150px;
+    left: 763px;
+    right: 0;
+}
+
+
+
 

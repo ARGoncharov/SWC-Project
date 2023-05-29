@@ -96,7 +96,7 @@ li {
 
 .main-block-container {
     display: flex;
-    height: 100vh;
+    height: 461px;
     position: relative;
 }
 
@@ -138,4 +138,75 @@ li {
     background-image: url('images/mainBlockImage.png');
 }
 
+.companies-block-container {
+    height: 520px;
+    background: #F5F5F5;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.companies-block-title-container {
+    padding: 35px 509px;
+    text-align: center;
+}
+
+.companies-block-title {
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    white-space: nowrap;
+}
+
+.table-container {
+    padding: 23px 216px;
+}
+
+th {
+
+}
+
+.img-1 {
+    padding-top: 36px;
+    padding-left: 320px;
+}
+
+.img-2 {
+    padding-top: 36px;
+    padding-left: 112px;
+}
+
+.img-3 {
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.img-4 {
+    padding-top: 36px;
+    padding-left: 85px;
+}
+
+.companies-block-subtitle {
+    position: relative;
+    font-family: 'Gotham Pro';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 0 0 16px 0;
+}
+
+.companies-block-subtitle-container {
+    text-align: center;
+    padding: 21px 373px 31px;
+}
+
+.button-guess {
+    font-family: "Gotham Pro";
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 272px;
+    height: 55px;
+    background: #89CDFA;
+    border-radius: 5px;
+}
 

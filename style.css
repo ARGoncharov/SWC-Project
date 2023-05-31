@@ -218,3 +218,8 @@ th {
     padding: 46px;
 }
 
+th {
+    border-right: 2px solid #E4E4E4;
+    border-bottom: 2px solid #E4E4E4;
+}
+

@@ -47,7 +47,7 @@ li {
 }
 
 .header-menu {
-    
+
 }
 
 .menu-list {
@@ -92,4 +92,141 @@ li {
     text-decoration: none;
 }
 
+/* Верстка: page */
 
+.main-block-container {
+    display: flex;
+    height: 461px;
+    position: relative;
+}
+
+.main-block-textcontent {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 360px;
+    padding-left: 67px;
+    padding-bottom: 2095px;
+}
+
+.main-block-imagecontent {
+    flex-basis: 50%;
+    padding-top: 33px;
+    padding-left: 20%;
+}
+
+.main-block-title {
+    font-family: "Gotham Pro";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 43px;
+}
+
+.main-block-text {
+    font-family: "Gotham Pro";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 23px;
+    white-space: nowrap;
+    padding-top: 20px;
+}
+
+.feature-img {
+    width: 517px;
+    height: 363px;
+    background-image: url('images/mainBlockImage.png');
+}
+
+.companies-block-container {
+    height: 520px;
+    background: #F5F5F5;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.companies-block-title-container {
+    padding: 35px 509px;
+    text-align: center;
+}
+
+.companies-block-title {
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    white-space: nowrap;
+}
+
+.table-container {
+    padding: 23px 216px;
+}
+
+th {
+
+}
+
+.img-1 {
+    padding-top: 36px;
+    padding-left: 320px;
+}
+
+.img-2 {
+    padding-top: 36px;
+    padding-left: 112px;
+}
+
+.img-3 {
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.img-4 {
+    padding-top: 36px;
+    padding-left: 85px;
+}
+
+.companies-block-subtitle {
+    position: relative;
+    font-family: 'Gotham Pro';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 0 0 16px 0;
+}
+
+.companies-block-subtitle-container {
+    text-align: center;
+    padding: 21px 373px 31px;
+}
+
+.button-guess {
+    font-family: "Gotham Pro";
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 272px;
+    height: 55px;
+    background: #89CDFA;
+    border-radius: 5px;
+}
+
+.app-main-block-title {
+    font-family: 'Gotham Pro';
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding: 46px;
+}
+
+th {
+    border-right: 2px solid #E4E4E4;
+    border-bottom: 2px solid #E4E4E4;
+}
+
+.app-image-block {
+    width: 342px;
+    height: 458px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 83.42%), url("images/Mokup.png");
+
+
+}
